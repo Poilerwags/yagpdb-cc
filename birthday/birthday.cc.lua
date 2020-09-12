@@ -1,10 +1,10 @@
 {{/* User Variables */}}
-{{$mods := cslice 668707598870118403 673258482211749917}}
-{{$channelID := 730216142924415006}} {{/* Channel ID to send the bday msgs */}}
+{{$mods := cslice 135109068145557504 740129506039431168}}
+{{$channelID := 740127787620237385}} {{/* Channel ID to send the bday msgs */}}
 {{$bdayMsg := "Congratulations for your birthday!"}}
 {{$invertedOrder := false}}
 {{$kickUnderAge := false}}
-{{$banUnderAge := true}}
+{{$banUnderAge := false}}
 {{/* End */}}
 
 {{/* DONT TOUCH */}}
