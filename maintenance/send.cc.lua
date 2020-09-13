@@ -38,7 +38,7 @@
     {{ end }}
 {{ end }}
 {{ if $msg }}
-    {{ if eq $type "raw" }}
+    {{ if eq 1 0 }}
         {{ sendMessageNoEscape $channel.ID $msg }}
     {{ else }}
         {{ sendMessage $channel.ID (cembed
