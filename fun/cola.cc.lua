@@ -22,9 +22,9 @@
 		{{ sendMessageNoEscape $channel.ID $msg }}
 	{{ else }}
 		{{ sendMessage $channel.ID (cembed
-			"author" (sdict "name" .User.String "icon_url" (.User.AvatarURL "256"))
+			"author" (sdict "name" "Chika Fujiwara" "icon_url" ("https://imgur.com/TQrsoR2" "256"))
 			"description" $msg
-			"color" 14232643
+			"color" 16764159
 			"footer" (sdict "text" (printf "Message sent from #%s" .Channel.Name))
 			"timestamp" currentTime
       "image" (sdict "url" "https://cdn.discordapp.com/attachments/753012187676541078/754117477633490945/Chika_Cola.jpg")
